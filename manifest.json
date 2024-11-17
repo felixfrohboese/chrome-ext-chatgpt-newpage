@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Redirect",
+  "version": "1.0",
+  "description": "Redirects new tabs to ChatGPT",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
